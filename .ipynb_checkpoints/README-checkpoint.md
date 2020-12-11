@@ -2,7 +2,7 @@
 
 ## Background
 
-This project aims apply natural language processing to understand the sentiment in the latest news articles featuring Bitcoin and Ethereum. You will also apply fundamental NLP techniques to better understand the other factors involved with the coin prices such as common words and phrases and organizations and entities mentioned in the articles. The latest articles were pulled using the [newsapi](https://newsapi.org/). The file include:
+This project aims apply natural language processing to understand the sentiment in the latest news articles featuring Bitcoin and Ethereum. It will also apply fundamental NLP techniques to better understand the other factors involved with the coin prices such as common words and phrases and organizations and entities mentioned in the articles. The latest articles were pulled using the [newsapi](https://newsapi.org/). The file include:
 
 [Crypto Sentiment](crypto_sentiment.ipynb)
 
@@ -14,11 +14,11 @@ This project aims apply natural language processing to understand the sentiment 
 
 A dataframe of sentiment scores was created for each coin.
 
-1. Oversample the data using the `Naive Random Oversampler` algorithm
+1. BTC Sentiment
 
 ![BTC](images/BTC.PNG)
 
-2. Oversample the data using the `SMOTE` algorithm
+2. ETH Sentiment
 
 ![ETH](images/ETH.PNG)
 
@@ -26,7 +26,7 @@ In summary, ETH had the highest mean positive score, the higest compound score. 
 
 #### Natural Language Processing
 
-1. NTLK was used to tokenize the text for each coin. Two different ensemble classifiers were used to to predict loan risk
+1. NTLK was used to tokenize the text for each coin
 2. NTLK was used to produce bygrams for each coin
 3. NTLK was used to produce top 10 words for each coin
 4. Words clouds were produced for each coin
