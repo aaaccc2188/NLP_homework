@@ -33,8 +33,6 @@ In summary, ETH had the highest mean positive score, the higest compound score. 
 
 ![BTC WC](images/BTCWC.png)
 
-2. Easy Ensemble Classifier
-
 ![ETH WC](images/ETHWC.png)
 
 #### Named Entity Recognition
